@@ -80,20 +80,20 @@ fun Home() {
     }
 
     //Dynamic text with checkbox
-    var myText = remember {
+    val myText = remember {
         mutableStateOf("What is your gender?")
     }
 
-    var firstCheckbox = remember {
+    val firstCheckbox = remember {
         mutableStateOf(false)
     }
 
-    var secondCheckbox = remember {
+    val secondCheckbox = remember {
         mutableStateOf(false)
     }
 
     //Changing background color using radio button
-    var myBackground = remember {
+    val myBackground = remember {
         mutableStateOf(Color.White)
     }
 
